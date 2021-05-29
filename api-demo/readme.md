@@ -55,8 +55,8 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 - I have worked on in API(SOAP and REST) developments and for more than 3 years.
 
 #### Changes comments
-Employee : Move Lombok annotations to class level.
-EmployeeServiceImpl: Method getEmployee() changed the return to null when value is not present.
-EmployeeController: Added comments to each method.
-EmployeeControllerTest: New class for JUNIT testing. Added method for all EmployeeController methods.
-EmployeeController: saveEmployee changed return type to ResponseEntity<Employee> and made changes accordingly within the method. 
+- Employee : Move Lombok annotations to class level.
+- EmployeeServiceImpl: Method getEmployee() changed the return to null when value is not present.
+- EmployeeController: Added comments to each method.
+- EmployeeControllerTest: New class for JUNIT testing. Added method for all EmployeeController methods.
+- EmployeeController: saveEmployee changed return type to ResponseEntity<Employee> and made changes accordingly within the method. 
